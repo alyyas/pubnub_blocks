@@ -4,7 +4,7 @@
 "tags": [],
 "description": "",
 "summary":"",
-"try_it_now":{"title":"","url":"", "open_in_new_window":""},
+"try_it_now":{"title":"","url":"", "target":""},
 "categories":[],
 "sub_categories":[],
 "update_date":"",
@@ -20,19 +20,19 @@
 "input_output":[{
 "title":"",
 "desc":"",
-"code":{}
+"code":""
 },{
 "title":"",
 "desc":"",
-"code":{}
+"code":""
 },{
 "title":"",
 "desc":"",
-"code":{}
+"code":""
 }],
 "license":{"type":"","url":""},
-"version": 1,
-"dependencies": {},
+"version": 1.1,
+"dependencies": "",
 "url_alias":"",
 "meta_title":"",
 "meta_desc":""
