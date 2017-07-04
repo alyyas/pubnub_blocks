@@ -1,27 +1,22 @@
 {
 	"name": "Hello World",
-	"sub_title": "This is only the beginning!",
+	"sub-title": "This is only the beginning!",
 	"tags": ["featured"],
 	"description": "\u003Cp\u003EThis is a simple \u201cHello World\u201d BLOCK.\u003Cbr\u003E\r\nReplaces your message with\u0026nbsp;\r\n\u003Ccode\u003E{ \u0022hello\u0022 : \u0022world\u0022 }\u003C\/code\u003E\r\n\u003C\/p\u003E",
 	"summary": "Simple \u0022Hello World\u0022 always delivers { \u0022hello\u0022 : \u0022world\u0022 }",
-	"try_it_now": {
-		"title": "Try it Now",
-		"url": "https:\/\/admin.pubnub.com\/#\/blocks\/209\/import",
-		"target": "_blank"
-	},
-	"categories": ["All"],
-	"sub_categories": ["All"],
-	"update_date": "1472680560",
-	"author_title": "Author",
+	"url-title": "Try it Now",
+	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/209\/import",
+    "license": {"type":"ISC","url":"", "show-license":1},
+    "update-date": "1472680560",
+	"author-title": "Author",
 	"author": "Stephen Blum - CTO",
-	"entry_title": "Get your API keys",
+	"entry-title": "Get your API keys",
 	"entry": "https:\/\/admin.pubnub.com\/#",
-	"show_license": "1",
-	"blocks_presentation": "\u003Cvideo autoplay id=\u0022metric-view\u0022 loop=\u0022loop\u0022 poster=\u0022\/sites\/default\/files\/helloworld-1.jpg\u0022 preload=\u0022auto\u0022\u003E\r\n    \u003Csource src=\u0022\/sites\/default\/files\/helloworld-1.mp4\u0022 \/\u003E \r\n    \u003Csource src=\u0022\/sites\/default\/files\/helloworld-1.webm\u0022 \/\u003E\r\n\u003C\/video\u003E\r\n",
-	"show_blocks_presentation": "1",
-	"walkthorugh_title": "Your First Event Handler",
+	"blocks-presentation": "\u003Cvideo autoplay id=\u0022metric-view\u0022 loop=\u0022loop\u0022 poster=\u0022\/sites\/default\/files\/helloworld-1.jpg\u0022 preload=\u0022auto\u0022\u003E\r\n    \u003Csource src=\u0022\/sites\/default\/files\/helloworld-1.mp4\u0022 \/\u003E \r\n    \u003Csource src=\u0022\/sites\/default\/files\/helloworld-1.webm\u0022 \/\u003E\r\n\u003C\/video\u003E\r\n",
+	"show-blocks-presentation": "1",
+	"walkthorugh-title": "Your First Event Handler",
 	"walkthorugh": "\u003Cp\u003EA simple hello world block which can replace your original message with \u003Ccode\u003E{ \u0022hello\u0022 : \u0022world\u0022 }\u003C\/code\u003E.\u003C\/p\u003E\r\n\u003Cp\u003EThis is done in an \u003Ccode\u003Eon-before\u003C\/code\u003E publish\/fire \u003Cstrong\u003Eevent handler\u003C\/strong\u003E.\u003C\/p\u003E",
-	"input_output": [{
+	"input-output": [{
 		"title": "Hello World",
 		"desc": "JavaScript.  The basic BLOCK.  One <strong>event handler</strong>.",
 		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\nexport default request =\u0026gt; {\n    return request.ok({\n        hello : \u0022world\u0022\n    })\n}\n\u003C\/pre\u003E"
@@ -39,8 +34,5 @@
 		"url": ""
 	},
 	"version": 1.1,
-	"dependencies": "",
-	"url_alias": "docs\/blocks-catalog\/hello-world",
-	"meta_title": "Hello World | PubNub",
-	"meta_desc": "This is a simple \u0026quot;Hello World\u0026quot; BLOCK. Replaces your message with { \u0026quot;hello\u0026quot; : \u0026quot;world\u0026quot; }"
+	"dependencies": ""
 }
