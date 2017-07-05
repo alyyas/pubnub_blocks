@@ -1,5 +1,5 @@
 {
-	"name": "Hello World",
+	"name": "Hello World2",
 	"sub-title": "This is only the beginning!",
 	"tags": ["featured"],
 	"description": "\u003Cp\u003EThis is a simple \u201cHello World\u201d BLOCK.\u003Cbr\u003E\r\nReplaces your message with\u0026nbsp;\r\n\u003Ccode\u003E{ \u0022hello\u0022 : \u0022world\u0022 }\u003C\/code\u003E\r\n\u003C\/p\u003E",
