@@ -1,0 +1,47 @@
+{
+	"name": "Plot Outliers on Graph",
+	
+	"description": "\u003Cp\u003EDetects outliers so we can highlight them on a graph. This is a common pattern found in analytics services, where one would highlight traffic spikes and even email the user when it happens. This block uses the open source \u003Ca href=\u0022https:\/\/www.pubnub.com\/developers\/eon\/\u0022 target=\u0022_blank\u0022 title=\u0022Project EON\u0022\u003EProject EON\u003C\/a\u003E format and library.\u003C\/p\u003E",
+			"summary": "Detects outliers and highlights them on a realtime graph.",
+    "sub-title": "Detects outliers and highlights them on a realtime graph.",
+	"tags": ["popular"],
+	"update-date": "1470264886",
+	"author-title": "Author:",
+	"author": "Ian Jennings",
+	"entry-title": "",
+	"entry": "",
+	"blocks-presentation": "\u003Cvideo autoplay loop\u003E\r\n    \u003Csource src=\u0022\/sites\/default\/files\/eon-chart.mp4\u0022 type=\u0022video\/mp4\u0022\u003E\r\n\u003C\/video\u003E",
+			
+
+	"walkthorugh-title": "Walkthrough",
+	"walkthorugh": "\u003Cp\u003EThis block assumes messages are being published in the \u003Ca href=\u0022\/developers\/eon\/\u0022 title=\u0022EON format\u0022 target=\u0022_blank\u0022\u003EEON format\u003C\/a\u003E.\u003C\/p\u003E\r\n\u003Cpre class=\u0022brush:javascript;\u0022\u003E\r\n{\r\n    eon: {\r\n        data: Math.floor(Math.random() * 99)\r\n    }\r\n}\r\n\u003C\/pre\u003E\r\n\r\n\u003Cp\u003EIt stores values sent to\u00a0it into the blocks database. Then, using the historical data it calculates the mean, median, and median absolute deviation using stats.js. Those values are added to the message payload.\u003C\/p\u003E\r\n\u003Cpre class=\u0022brush:javascript;\u0022\u003E\r\n\/\/ use stats.js to calculate mean, meadian, and mean absolute deviation\r\nrequest.message.eon.mean = mean(history).toFixed(2) * 1\r\nrequest.message.eon.median = median(history);\r\nrequest.message.eon.mad = medianAbsoluteDeviation(history);\r\n\u003C\/pre\u003E\r\n\r\n\u003Cp\u003EFinally, the indexes of historial values that appear to be outliers are added to the payload, along with a handy function that indicates if the last published message that triggered the event script is an outlier.\u003C\/p\u003E\r\n\u003Cpre class=\u0022brush:javascript;\u0022\u003E\r\n\/\/ use the mean absolute deviation to find index of outliers\r\nrequest.message.outliers = indexOfOutliers(history);\r\n\r\n\/\/ if the new value is an outlier, mark it as such\r\nrequest.message.is_outlier = (Math.max.apply(Math, request.message.outliers) == history.length - 1)\r\n\u003C\/pre\u003E\r\n\r\n\u003Cp\u003EThis data can be plugged right into our open source charting library, eon charts.\u003C\/p\u003E",
+
+            
+	"url-title": "Try it Now",
+	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/194\/import",
+
+	"input-output": [{
+		"title": "Input",
+		"desc": "This block is configured to work with \u003Ca href=\u0022\/developers\/eon\/chart\/builder\/\u0022 target=\u0022_blank\u0022 title=\u0022EON charts\u0022\u003EEON charts\u003C\/a\u003E, so the published data should match best practices.\n\nInput Channel: \u003Cb\u003Eeon-stats-channel\u003C\/b\u003E",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\n{\n    \u0022eon\u0022: {\n        \u0022data\u0022: 1\n    }\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "Output",
+		"desc": "The extra data from stats.js is added as properties to the EON object.\n\nOutput Channel: \u003Cb\u003Eeon-stats-channel\u003C\/b\u003E",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E{\n    \u0022eon\u0022: {\n        \u0022data\u0022: 1,\n        \u0022mean\u0022: 1,\n        \u0022median\u0022: 1,\n        \u0022mad\u0022: 1\n    }\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "",
+		"desc": "",
+		"code": ""
+	}],
+
+	"license": {
+		"type": "MIT",
+		"url": "",
+		"show-license": 1
+	},
+
+	"show-blocks-presentation": "1",
+
+	"version": 1.1,
+	"dependencies": ""
+}
