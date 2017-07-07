@@ -1,21 +1,23 @@
 {
 	"name": "",
-	"sub-title": "",
-	"tags": "",
 	"description": "",
 	"summary": "",
-	"url-title": "Try it Now",
-	"url": "",
-    "license": {"type":"","url":"", "show-license":0},
-    "update-date": "",
+	"sub-title": "",
+
+    "tags": "",
+	"update-date": "",
 	"author-title": "Author",
 	"author": "",
 	"entry-title": "",
 	"entry": "",
 	"blocks-presentation": "",
-	"show-blocks-presentation": "0",
+
 	"walkthorugh-title": "Walkthrough",
 	"walkthorugh": "",
+
+    "url-title": "Try it Now",
+	"url": "",
+
 	"input-output": [{
 		"title": "Input",
 		"desc": "",
@@ -29,6 +31,16 @@
 		"desc": "",
 		"code": ""
 	}],
+
+	
+	"license": {
+		"type": "",
+		"url": "",
+		"show-license": 0
+	},
+
+	"show-blocks-presentation": "0",
+
 	"version": 1.1,
 	"dependencies": ""
 }
