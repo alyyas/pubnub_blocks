@@ -1,0 +1,46 @@
+{
+	"name": "Mapbox: Directions",
+
+	"description": "\u003Cp\u003EMapbox\u0027s Directions provides a variety of traffic-aware navigation features, including walking, driving, and cycling directions, ETAs, alternative routes, and turn-by-turn instructions, all laid upon Mapbox\u0027s beautiful selection of vector maps.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe Mapbox Directions block, you can build traffic-aware directions and navigation into your realtime applications. For example, if you\u0027re building a taxi or ridesharing application, the block lets you stream geolocation coordinates data between users (like a driver and passenger), then provide navigation to connect them. Or for a delivery app, you can send drop off locations to a fleet of trucks based on their current coordinates.\u003C\/p\u003E",
+	"summary": "Traffic-aware turn-by-turn directions and ETAs",
+
+	"sub-title": "Turn-by-turn traffic-aware directions and ETAs, including driving, walking, and cycling",
+	"tags": "",
+	"update-date": "1474351931",
+	"author-title": "Author",
+	"author": "PubNub",
+
+	"entry-title": "",
+	"entry": "\u003Ca href=\u0022https:\/\/www.mapbox.com\/studio\/signup\/?utm_source=pubnub\u0026amp;utm_medium=cust_referral\u0026amp;utm_content=studio_signup\u0026amp;utm_campaign=directions\u0022 target=\u0022_blank\u0022 title=\u0022Mapbox Signup\u0022\u003EMapbox Signup\u003C\/a\u003E",
+
+	"blocks-presentation": "\u003Cvideo id=\u0022video-23944-1\u0022 loop autoplay preload=\u0022metadata\u0022 controls=\u0022controls\u0022\u003E\u003Csource type=\u0022video\/mp4\u0022 src=\u0022\/sites\/default\/files\/Mapbox-Directions.mp4\u0022\u003E\u003Ca href=\u0022\/sites\/default\/files\/Mapbox-Directions.mp4\u0022\u003E\/sites\/default\/files\/Mapbox-Directions.mp4\u003C\/a\u003E\u003C\/video\u003E",
+
+	"walkthorugh-title": "Walkthrough",
+	"walkthorugh": "The block requires five inputs: two pairs of latitude, longitude and the type of desired transportation method. Once the response comes from Mapbox, the block appends the directions into the message payload.",
+
+	"url-title": "Try it Now",
+	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/991\/import",
+	"license": {
+		"type": "",
+		"url": "",
+		"show-license": 0
+	},
+
+	"show-blocks-presentation": "1",
+
+	"input-output": [{
+		"title": "Input",
+		"desc": "Input Channel: \u003Cb\u003Emapbox-directions-channel\u003C\/b\u003E (configurable)\u003Cb\u003Elat1\u003C\/b\u003E, \u003Cb\u003Elng1\u003C\/b\u003E is the origin coordinates\u003Cb\u003Elat2\u003C\/b\u003E, \u003Cb\u003Elng2\u003C\/b\u003E is the destination coordinates\u003Cb\u003Eprofile\u003C\/b\u003E represents the type of transporation: mapbox\/driving, mapbox\/cycling or mapbox\/walking",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\n{\n    \u0022lat1\u0022: 10,\n    \u0022lng1\u0022: 11,\n    \u0022lat2\u0022: 15,\n    \u0022lng2\u0022: 20,\n    \u0022profile\u0022: \u0022mapbox\/driving\u0022\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "Output",
+		"desc": "The block appends the directions returned by the Mapbox Directions API into the message payload. Please refer to the \u003Ca href=\u0022https:\/\/www.mapbox.com\/api-documentation\/#retrieve-directions\u0022 target=\u0022_blank\u0022 title=\u0022Mapbox documentation\u0022\u003EMapbox documentation\u003C\/a\u003E for field information.",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\n{\n    \u0022lat1\u0022: 10,\n    \u0022lng1\u0022: 11,\n    \u0022lat2\u0022: 15,\n    \u0022lng2\u0022: 20,\n    \u0022profile\u0022: \u0022mapbox\/driving\u0022,\n    \u0022directions\u0022: \u0026lt;Mapbox Directions API Response\u0026gt;\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "",
+		"desc": "",
+		"code": ""
+	}],
+	"version": 1.1,
+	"dependencies": ""
+}
