@@ -14,14 +14,14 @@
 	"entry": "",
 	"blocks-presentation": "",
 	"show-blocks-presentation": "0",
-	"walkthorugh-title": "",
+	"walkthorugh-title": "Walkthrough",
 	"walkthorugh": "",
 	"input-output": [{
-		"title": "",
+		"title": "Input",
 		"desc": "",
 		"code": ""
 	}, {
-		"title": "",
+		"title": "Output",
 		"desc": "",
 		"code": ""
 	}, {
