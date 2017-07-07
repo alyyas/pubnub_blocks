@@ -1,0 +1,39 @@
+{
+	"name": "IBM Watson: Sentiment and Context Analysis",
+	"sub-title": "Analyze text to understand and act on sentiment, context, emotion, entity, and language",
+	"tags": "",
+	"description": "\u003Cp\u003ENatural Language Understanding from IBM Watson provides a number of APIs for text analysis through natural language processing. The APIs are able to analyze text, and understand a wide variety of characteristics, including sentiment, entity, emotion, keyword, concept tagging, language, and taxonomy.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe IBM Watson Natural Language Understanding block lets you analyze and run functions on your data streams, with all computation taking place in the network. For example, analyze chat messages coming through a customer support app, gauge emotion or detect language, and filter those messages to a specific representative. Your data streams just got way smarter.\u003C\/p\u003E",
+	"summary": "Analyze text for sentiment, emotion, language and more.",
+
+	"url-title": "Try it Now",
+	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/10970\/import",
+	"license": {
+		"type": "",
+		"url": "",
+		"show-license": 0
+	},
+	"update-date": "1470096352",
+	"author-title": "Event Handler Author:",
+	"author": "PubNub",
+	"entry-title": "",
+	"entry": "\u003Ca href=\u0022https:\/\/www.ibm.com\/watson\/developercloud\/natural-language-understanding.html?cm_mmc=Earned-_-IBM+Watson_Watson+Developer+Cloud-_-WW_WW-_-PubNub+-+Alchemy+Language+Overview\u0026amp;cm_mmca1=000000OF\u0026amp;cm_mmca2=10000409 \u0022 title=\u0022Get your API Keys\u0022 target=\u0022_blank\u0022\u003EGet your API Keys\u003C\/a\u003E",
+	"blocks-presentation": "\u003Cvideo id=\u0022metric-view\u0022 preload=\u0022auto\u0022 autoplay loop poster=\u0022\/sites\/default\/files\/group-sentiment-poster.png\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.mp4\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.webm\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.mov\u0022\u003E\u003C\/video\u003E",
+	"show-blocks-presentation": "1",
+	"walkthorugh-title": "",
+	"walkthorugh": "The sentiment and context analysis block uses the IBM Watson Natural Language Understanding to analyze text and execute functions based on the sentiment or emotion of that message. This is done in an after-publish event handler. The sentiment analysis for each message is saved in the PubNub distributed data store. The session sentiment is calculated as an average and is published on an output sentiment channel.",
+	"input-output": [{
+		"title": "Input",
+		"desc": "Publish this data on the input channel.",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\n{\n    \u0022text\u0022       : \u0022Feeling happy\u0022,\n    \u0022session_id\u0022 : \u0022episode1\u0022\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "Output",
+		"desc": "The sentiment average is added to the message.",
+		"code": "\u003Cpre class=\u0022brush:javascript;\u0022\u003E\n{ \n    \u0022session_id\u0022: \u0022episode1\u0022,\n    \u0022session_sentiment\u0022:  {\n        \u0022overall\u0022: 3.1678750000000004,\n        \u0022positive\u0022: { \n            \u0022count\u0022: 13, \n            \u0022avg\u0022: 0.6078368461538461 \n        },\n        \u0022negative\u0022: { \n            \u0022count\u0022: 8, \n            \u0022avg\u0022: -0.5917505 \n        },\n        \u0022neutral\u0022: { \n            \u0022count\u0022: 2, \n            \u0022avg\u0022: null \n        }\n    }\n}\n\u003C\/pre\u003E"
+	}, {
+		"title": "",
+		"desc": "",
+		"code": ""
+	}],
+	"version": 1.1,
+	"dependencies": ""
+}
