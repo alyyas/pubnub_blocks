@@ -20,7 +20,7 @@
 	"license": {
 		"type": "ABC",
 		"url": "http://google.com",
-		"show-license": 0
+		"show-license": 1
 	},
 
 	"show-blocks-presentation": "1"
