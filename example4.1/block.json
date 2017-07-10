@@ -1,0 +1,27 @@
+{
+	"name": "Mapbox: Directions",
+
+	
+	"summary": "Traffic-aware turn-by-turn directions and ETAs, including driving, walking, and cycling",
+
+	"tags": ["featured"],
+	"update-date": "1474351931",
+
+	"author": "Aliya",
+
+
+	"blocks-presentation": "",
+
+	"walkthorugh-title": "Walkthrough 2",
+	"walkthorugh": "The block requires five inputs: two pairs of latitude, longitude and the type of desired transportation method. Once the response comes from Mapbox, the block appends the directions into the message payload.",
+
+	"url-title": "Try it Now 2",
+	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/991\/import",
+	"license": {
+		"type": "ABC",
+		"url": "http://google.com",
+		"show-license": 0
+	},
+
+	"show-blocks-presentation": "1"
+}
