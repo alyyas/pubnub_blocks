@@ -18,7 +18,7 @@
 	"entry-title": "",
 	"entry": "\u003Ca href=\u0022https:\/\/www.ibm.com\/watson\/developercloud\/natural-language-understanding.html?cm_mmc=Earned-_-IBM+Watson_Watson+Developer+Cloud-_-WW_WW-_-PubNub+-+Alchemy+Language+Overview\u0026amp;cm_mmca1=000000OF\u0026amp;cm_mmca2=10000409 \u0022 title=\u0022Get your API Keys\u0022 target=\u0022_blank\u0022\u003EGet your API Keys\u003C\/a\u003E",
 	"blocks-presentation": "\u003Cvideo id=\u0022metric-view\u0022 preload=\u0022auto\u0022 autoplay loop poster=\u0022\/sites\/default\/files\/group-sentiment-poster.png\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.mp4\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.webm\u0022\u003E\u003Csource src=\u0022\/sites\/default\/files\/group-sentiment.mov\u0022\u003E\u003C\/video\u003E",
-	"show-blocks-presentation": "1",
+	
 	"walkthorugh-title": "",
 	"walkthorugh": "The sentiment and context analysis block uses the IBM Watson Natural Language Understanding to analyze text and execute functions based on the sentiment or emotion of that message. This is done in an after-publish event handler. The sentiment analysis for each message is saved in the PubNub distributed data store. The session sentiment is calculated as an average and is published on an output sentiment channel.",
 	"input-output": [{
