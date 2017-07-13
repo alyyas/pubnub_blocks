@@ -26,7 +26,7 @@
 		"show-license": 0
 	},
 
-	"show-blocks-presentation": "1",
+	"show-blocks-presentation": false,
 
 	"input-output": [{
 		"title": "Input",
