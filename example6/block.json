@@ -25,7 +25,7 @@
 	"input-output": [{
 			"title": "test code",
 			"desc": "test code desc",
-			"code": "{\n\"input\": \"code 1\",\"output\": \"code 2\"}"
+			"code": {"input": "code 1","output": "code 2"}
 		},
 		{
 			"title": "test code22",
