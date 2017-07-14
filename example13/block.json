@@ -1,10 +1,10 @@
-{
+	{
 	"name": "mnubo 1",
 	
-	"tags": ["feature"],			
-	"update-date": "1496428905",
-	"author-title": "Author",
-	"author": "mnubo",
+	"tags": ["featured"],			
+	"update-date": "",
+	"author-title": "",
+	"author": "",
 	"entry-title": "",
 	"entry": "\u003Ca href=\u0022https:\/\/smartobjects.mnubo.com\/documentation\/\u0022 title=\u0022Get your API Keys\u0022 target=\u0022_blank\u0022\u003Emnubo Docs\u003C\/a\u003E",
 	"blocks-presentation": "",
