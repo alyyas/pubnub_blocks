@@ -7,7 +7,7 @@
 	"entry-title": "",
 	"entry": "",
         "blocks-presentation": "",
-	"show-blocks-presentation": true,
+	"show-blocks-presentation": false,
 	"walkthrough-title": "Walkthrough",
 	"input-output": [{
 		"title": "Hello World",
