@@ -18,8 +18,8 @@
 	"entry": "\u003Cul\u003E\u003Cli\u003E\u003Ca href=\u0022https:\/\/betterdoctor.com\/developers\u0022 title=\u0022Documentation and API Keys\u0022 target=\u0022_blank\u0022\u003EDocumentation and API Keys\u003C\/a\u003E\u003C\/li\u003E\u003Cli\u003E\u003Ca href=\u0022http:\/\/betterdoctor.com\/\u0022 title=\u0022Homepage\u0022 target=\u0022_blank\u0022\u003EBetterDoctor Homepage\u003C\/a\u003E\u003C\/li\u003E\u003C\/ul\u003E",
 	"blocks-presentation": "\u003Cimg src=\u0022\/sites\/default\/files\/better-doctor-example-code.png\u0022 title=\u0022betterdoctorexample\u0022 alt=\u0022doctor data\u0022 \/\u003E",
 	"show-blocks-presentation": "1",
-	"walkthorugh-title": "Walkthrough",
-	"walkthorugh": "\u003Cdiv title=\u0022Page 2\u0022\u003E\r\n\t\u003Cp\u003E\r\n\t\tBy \u003Ca href=\u0022https:\/\/betterdoctor.com\/developers\u0022\u003Ecreating a free BetterDoctor user key here\u003C\/a\u003E, you get immediate access to BetterDoctor Provider Data. The free account is rate limited and you can\u0027t access all the data through the Public API. If you\u0027re interested in the Premium API,\u0026nbsp;\u003Ca href=\u0022http:\/\/betterdoctor.com\/developers\/index.html#contact-data\u0022\u003Econtact BetterDoctor\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003C\/div\u003E\r\n",
+	"walkthrough-title": "Walkthrough",
+	"walkthrough": "\u003Cdiv title=\u0022Page 2\u0022\u003E\r\n\t\u003Cp\u003E\r\n\t\tBy \u003Ca href=\u0022https:\/\/betterdoctor.com\/developers\u0022\u003Ecreating a free BetterDoctor user key here\u003C\/a\u003E, you get immediate access to BetterDoctor Provider Data. The free account is rate limited and you can\u0027t access all the data through the Public API. If you\u0027re interested in the Premium API,\u0026nbsp;\u003Ca href=\u0022http:\/\/betterdoctor.com\/developers\/index.html#contact-data\u0022\u003Econtact BetterDoctor\u003C\/a\u003E.\u003C\/p\u003E\r\n\r\n\u003C\/div\u003E\r\n",
 	"input-output": [{
 		"title": "Input",
 		"desc": "This is a sample payload for basic doctor search.",
