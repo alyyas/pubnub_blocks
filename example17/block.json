@@ -8,9 +8,8 @@
 	"entry-title": "",
 	"entry": "",
         "blocks-presentation": "",
-	"show-blocks-presentation": "0",
+	"show-blocks-presentation": true,
 	"walkthrough-title": "Walkthrough",
-	"walkthrough": "",
 	"input-output": [{
 		"title": "Hello World",
 		"desc": "JavaScript.  The basic BLOCK.  One <strong>event handler</strong>.",
