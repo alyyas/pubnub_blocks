@@ -1,5 +1,5 @@
 {
-	"name": "Mapbox: Directions ottoman",
+	"name": "Mapbox: Directions ottoman, addtion",
 
 	"description": "\u003Cp\u003EMapbox\u0027s Directions provides a variety of traffic-aware navigation features, including walking, driving, and cycling directions, ETAs, alternative routes, and turn-by-turn instructions, all laid upon Mapbox\u0027s beautiful selection of vector maps.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe Mapbox Directions block, you can build traffic-aware directions and navigation into your realtime applications. For example, if you\u0027re building a taxi or ridesharing application, the block lets you stream geolocation coordinates data between users (like a driver and passenger), then provide navigation to connect them. Or for a delivery app, you can send drop off locations to a fleet of trucks based on their current coordinates.\u003C\/p\u003E",
 	"summary": "Traffic-aware turn-by-turn directions and ETAs",
