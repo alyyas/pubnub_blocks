@@ -14,8 +14,8 @@
 
 	"blocks-presentation": "\u003Cvideo id=\u0022video-23944-1\u0022 loop autoplay preload=\u0022metadata\u0022 controls=\u0022controls\u0022\u003E\u003Csource type=\u0022video\/mp4\u0022 src=\u0022\/sites\/default\/files\/Mapbox-Directions.mp4\u0022\u003E\u003Ca href=\u0022\/sites\/default\/files\/Mapbox-Directions.mp4\u0022\u003E\/sites\/default\/files\/Mapbox-Directions.mp4\u003C\/a\u003E\u003C\/video\u003E",
 
-	"walkthorugh-title": "Walkthrough",
-	"walkthorugh": "The block requires five inputs: two pairs of latitude, longitude and the type of desired transportation method. Once the response comes from Mapbox, the block appends the directions into the message payload.",
+	"walkthrough-title": "Walkthrough",
+	"walkthrough": "The block requires five inputs: two pairs of latitude, longitude and the type of desired transportation method. Once the response comes from Mapbox, the block appends the directions into the message payload.",
 
 	"url-title": "Try it Now",
 	"url": "https:\/\/admin.pubnub.com\/#\/blocks\/991\/import",
