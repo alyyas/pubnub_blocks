@@ -26,11 +26,6 @@
 			"title": "Input",
 			"desc": "test code desc",
 			"code": "{\n\"input\": \"code 21\",\"output\": \"code 22\"}"
-		},
-		{
-			"title": "Output",
-			"desc": "test code desc2",
-			"code": "{\n\"input\": \"code 21\",\"output\": \"code 22\"}"
 		}
 	]
 }
