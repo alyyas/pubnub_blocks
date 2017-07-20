@@ -1,7 +1,7 @@
 {
 	"name": "trade4me",
 	"sub-title": "t4m",
-	"tags": ["Featured","popular","new"],
+	"tags": ["Featured","newest"],
 	"description": "perform actions on the trade4me api",
 	"summary": "trade 4 me summary",
 	"license": {
@@ -24,11 +24,6 @@
 	"walkthrough-title": "walkthorugh t",
 	"input-output": [{
 			"title": "Input",
-			"desc": "test code desc",
-			"code": "{\n\"input\": \"code 21\",\"output\": \"code 22\"}"
-		},
-		{
-			"title": "Output",
 			"desc": "test code desc",
 			"code": "{\n\"input\": \"code 21\",\"output\": \"code 22\"}"
 		}
